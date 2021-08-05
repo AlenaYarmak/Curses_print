@@ -381,3 +381,36 @@ section {
 
     z-index: 4;
 }
+.explorer {
+    display: none;
+}
+
+/* IE 11 and 10 */
+@media all and (-ms-high-contrast:none)
+         {
+        .author__img { 
+            margin: 15px auto 30px; }
+            .person > div  {
+            max-width: 150px; }
+            .author__title {
+                display: none;
+            }
+            .explorer {
+                display: block;
+                max-width: 180px;
+                font-size: 25px;
+                margin: 0 auto;
+            }
+            .author__text p {
+                max-width: 1170px;
+                padding: 0 10px;
+            }
+            /* IE10 */
+         *::-ms-backdrop, .author__img { 
+            
+            margin: 15px auto; } 
+            .person > div  {
+            max-width: 200px;
+            max-height: 200px; }
+                /* IE11 */
+        }
