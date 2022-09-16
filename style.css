@@ -275,30 +275,6 @@ section {
     z-index: 4;
 }
 
-/* animation author */
-/* .author__img {
-    transform: scale(0.9, 0.9);
-    transition: transform 0.2s ease-in;
-    margin: 0 auto;
-} */
-  
-/* .image__foreground {
-    transform-origin: 50% 50%;
-    transform: translateY(4px) scale(1, 1);
-    transition: transform 0.2s ease-in;
-} */
-  
-/* .author__img:hover {
-    transform: scale(1, 1);
-} */
-  
-/* .author__img:hover .image__foreground {
-    transform: translateY(-7px) scale(1.05, 1.05);
-} */
-
-
-/* Social */
-
 .black {
     background-color: #000;
     height: 260px;
